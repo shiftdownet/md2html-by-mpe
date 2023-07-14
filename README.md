@@ -9,17 +9,16 @@ Convert from markdown to html by markdown-preview-enhanced
 npm install
 ```
 
-# Execute
-
-On this directory
-
-```shell
-node ./src/main.js README.md
-```
-
 # Build
 
 ```shell
 npm run build
 ```
 
+# Execute
+
+On this directory
+
+```shell
+npm run debug:exe
+```
