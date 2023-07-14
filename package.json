@@ -1,0 +1,28 @@
+{
+  "name": "md2html-by-mpe",
+  "version": "0.0.0",
+  "description": "Convert from markdown to html by markdown-preview-enchanded.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production && nexe -i ./dist/bundle.js -o ./bin/md2html-by-mpe.exe --target windows-x64-8.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiftdownet/md2html-by-mpe.git"
+  },
+  "author": "shiftdownet",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/shiftdownet/md2html-by-mpe/issues"
+  },
+  "homepage": "https://github.com/shiftdownet/md2html-by-mpe#readme",
+  "dependencies": {
+    "@shd101wyy/mume": "^0.7.6"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-rc.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
